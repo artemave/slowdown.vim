@@ -1,0 +1,19 @@
+*SlowDown.vim* slows down vim input
+
+Author:  Artem Avetisyan <https://github.com/artemave>
+License: Same terms as Vim itself (see |license|)
+
+You can configure how slow it can get. In .vimrc:
+
+    let g:slow_down_max_delay_ms = 100
+
+Actual delay on every keypress is a random value between 100 and `g:slow_down_max_delay_ms` ms.
+
+
+ABOUT                                           *slowdown.vim-about*
+
+Grab the latest version or report a bug on GitHub:
+
+http://github.com/artemave/slowdown.vim
+
+ vim:tw=78:et:ft=help:norl:
