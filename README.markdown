@@ -1,7 +1,7 @@
 SlowDown.vim
 ============
 
-This plugin slows down input speed. Why? To improve your vim moves.
+This plugin slows down input speed. Why? To help you improve your vim moves.
 
 Installation
 ------------
@@ -10,7 +10,7 @@ If you don't have a preferred installation method, I recommend installing [Vundl
 
 You can configure how slow it can get. In .vimrc:
 
-    let g:slow_down_max_delay_ms = 100
+    let g:slow_down_max_delay_ms = 200
 
 Actual delay on every keypress is a random value between 100 and `g:slow_down_max_delay_ms` ms.
 
