@@ -11,7 +11,9 @@ and then simply add this to your bundles:
 
     Bundle 'artemave/slowdown.vim'
 
-You can configure how slow it can get. In .vimrc:
+then `:source %`, `:BundleInstall` and that is it.
+
+You can configure how slow it can get. In `.vimrc`:
 
     let g:slow_down_max_delay_ms = 200
 
