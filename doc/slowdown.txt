@@ -3,6 +3,10 @@
 Author:  Artem Avetisyan <https://github.com/artemave>
 License: Same terms as Vim itself (see |license|)
 
+USAGE
+
+No need to do anything. It just works as long as plugin installed. You can't toggle it either (it is a feature).
+
 You can configure how slow it can get. In .vimrc:
 
     let g:slow_down_max_delay_ms = 200
