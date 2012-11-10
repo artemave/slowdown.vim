@@ -1,12 +1,15 @@
 SlowDown.vim
 ============
 
-This plugin slows down input speed. Why? To help you improve your vim moves.
+This plugin slows down input speed. Why? To help improve your vim moves.
 
 Installation
 ------------
 
-If you don't have a preferred installation method, I recommend installing [Vundle](https://github.com/gmarik/vundle)
+If you don't have a preferred installation method, I recommend installing [Vundle](https://github.com/gmarik/vundle) 
+and then simply add this to your bundles:
+
+    Bundle 'artemave/slowdown.vim'
 
 You can configure how slow it can get. In .vimrc:
 
