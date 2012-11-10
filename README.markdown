@@ -19,6 +19,11 @@ Contributing
 
 By all means! You know what to do.
 
+Thanks
+------
+
+To [this answer](http://superuser.com/questions/498115/limit-input-speed/498126#498126) on ServerFault
+
 License
 -------
 
