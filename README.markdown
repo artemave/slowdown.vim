@@ -15,7 +15,7 @@ then `:source %`, `:BundleInstall` and that is it.
 
 You can configure how slow it can get. In `.vimrc`:
 
-    let g:slow_down_max_delay_ms = 200
+    let g:slow_down_max_delay_ms = 300 " default is 200
 
 Actual delay on every keypress is a random value between 100 and `g:slow_down_max_delay_ms` ms.
 
