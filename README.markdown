@@ -6,7 +6,12 @@ This plugin slows down keypress feedback so it feels like you are working over a
 Installation
 ------------
 
-If you don't have a preferred installation method, I recommend installing [Vundle](https://github.com/gmarik/vundle)
+If you don't have a preferred installation method, I recommend installing [Vundle](https://github.com/gmarik/vundle) 
+and then simply add this to your bundles:
+
+    Bundle 'artemave/slowdown.vim'
+
+then `:source %`, `:BundleInstall` and you are set.
 
 You can configure how slow and intrusive it gets:
 
@@ -21,6 +26,11 @@ Contributing
 ------------
 
 By all means! You know what to do.
+
+Thanks
+------
+
+To [this answer](http://superuser.com/questions/498115/limit-input-speed/498126#498126) on ServerFault
 
 License
 -------
