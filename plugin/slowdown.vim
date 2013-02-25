@@ -17,4 +17,12 @@ function! SlowDown()
   execute 'sleep ' . l:rand . 'm'
 endfunction
 
-au CursorMoved,CursorMovedI * :call SlowDown()
+if !exists('g:slow_down_insert_mode')
+  let g:slow_down_insert_mode = 0
+endif
+
+if g:slow_down_insert_mode == 1
+  au CursorMoved,CursorMovedI * :call SlowDown()
+else
+  au CursorMoved * :call SlowDown()
+endif
