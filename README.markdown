@@ -37,3 +37,7 @@ License
 
 Copyright (c) Artem Avetisyan.  Distributed under the same terms as Vim itself.
 See `:help license`.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/artemave/slowdown.vim/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
