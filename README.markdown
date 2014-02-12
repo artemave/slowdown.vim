@@ -5,6 +5,8 @@ SlowDown.vim
 
 This plugin slows down keypress feedback so it feels like you are working over a sloppy ssh connection. Why? This way vim motions and other useful stuff become more of a necessity. So you actually start using it, you lazy bum!
 
+If that sounds interesting, you might also want to check out [vim hard mode](https://github.com/wikitopian/hardmode)
+
 Installation
 ------------
 
